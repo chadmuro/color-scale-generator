@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link styles.css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Scale</title>
+</head>
+<body>
+    <header>
+        <h1>Color Scale Generator</h1>
+        <div class="inputs">
+            <div class="color-input">
+                <input value="#00ff00" type="color" id="color1">
+            </div>
+            <div class="color-input">
+                <input value="#ff0000" type="color" id="color2">
+            </div>
+        </div>
+    </header>
+
+    <!-- div to hold the color scales -->
+    <div class="container" id="container"></div>
+
+    <!-- connect chroma.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <!-- connect script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
