@@ -1,50 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+	height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
 }
 
 .inputs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .color-input {
-    margin: 10px;
+	margin: 10px;
 }
 
 .color-input input {
-    border: none;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+	border: none;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
 }
 
 .container {
-    display: flex;
-    height: calc(100% - 100px);
+	display: flex;
+	height: calc(100% - 100px);
 }
 
 .container-item {
-    height: 100%;
-    position: relative;
-    flex: 1;
-    transition: 0.3s all;
+	height: 100%;
+	position: relative;
+	flex: 1;
+	transition: 0.3s all;
 }
 
 .container-item:hover {
-    flex: 2;
+	flex: 2;
 }
