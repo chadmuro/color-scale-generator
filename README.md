@@ -9,4 +9,4 @@ Using the Chroma.js library.
 https://chadmuro.github.io/color-scale-generator/
 
 ### View the article
-coming soon...
+https://levelup.gitconnected.com/build-a-color-scale-generator-with-chroma-js-810b7cf7b587
